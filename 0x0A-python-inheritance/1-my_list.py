@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-"""Defines an object attribute lookup function."""
+''' Module: 1-my_list
+'''
 
 
-def lookup(obj):
-    """Return a list of an object's available attributes."""
-    return (dir(obj))
+class MyList(list):
+    ''' Represents a MyList
+    '''
+
+    def print_sorted(self):
+        '''
+        prints the list, but sorted
+        '''
+        print(sorted(self))

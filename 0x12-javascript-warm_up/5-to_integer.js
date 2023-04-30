@@ -1,3 +1,8 @@
 #!/usr/bin/node
 const arg = process.argv[2];
-console.log((/^\d+$.test(arg)) ? `My number: ${parseInt(arg)}` : "Not a Number");
+
+if (/^\d+$/.test(arg)) {
+	console.log(`My number: ${parseInt(arg)}`);
+} else {
+	console.log('Not a Number');
+}

@@ -6,12 +6,12 @@ number = random.randint(-10, 10)
 print(number)
 
 if number > 0:
-    positive = "is positive"
+    positive = " is positive"
 elif number == 0:
-    zero = "is zero"
+    zero = " is zero"
 else:
-    negative = "is negative"
+    negative = " is negative"
 
-print(f"{number} {psoitive}")
-print(f"{number} {zero}")
-print(f"{number} {negative}")
+print(number + positive)
+print(number + zero)
+print(number + negative)

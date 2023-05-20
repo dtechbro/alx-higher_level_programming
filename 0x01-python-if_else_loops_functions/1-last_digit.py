@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 
 if number >= 0:
     last_digit = number % 10
-else :
+else:
     last_digit = ((number * -1) % 10) * -1
 
 output = "Last digit of " + str(number) + " is " + str(last_digit)

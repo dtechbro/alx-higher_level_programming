@@ -12,6 +12,6 @@ elif number == 0:
 else:
     negative = " is negative"
 
-print(number + positive)
-print(number + zero)
-print(number + negative)
+print(str(number) + positive)
+print(str(number) + zero)
+print(str(number) + negative)

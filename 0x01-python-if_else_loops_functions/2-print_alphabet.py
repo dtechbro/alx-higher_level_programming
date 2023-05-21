@@ -9,4 +9,5 @@
 # print(output)
 
 for character in range(97, 123):
-    print("{:c}".format(character), end='')
+    output = "{:c}".format(character)
+    print(output, end='')

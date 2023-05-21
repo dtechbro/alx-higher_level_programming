@@ -7,8 +7,3 @@ for ascii_value in range(ord('a'), ord('z') + 1):
 
 output = "{}".format(alphabet)
 print(output, end='')
-
-# output = ""
-# for character in range(97, 123):
-#     output = "{:c}".format(character)
-#     print(output, end = "")

@@ -6,7 +6,7 @@ for ascii_value in range(ord('a'), ord('z') + 1):
     alphabet += char
 
 output = "{}".format(alphabet)
-print(output)
+print(output, end='')
 
 # output = ""
 # for character in range(97, 123):

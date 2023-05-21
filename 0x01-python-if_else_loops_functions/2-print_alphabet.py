@@ -6,4 +6,4 @@ for ascii_value in range(ord('a'), ord('z') + 1):
     alphabet += char
 
 output = "{}".format(alphabet)
-print(output,)
+print(output)

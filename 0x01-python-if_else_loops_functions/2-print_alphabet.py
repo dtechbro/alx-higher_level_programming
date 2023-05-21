@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-# alphabet = ""
+alphabet = ""
 
 for ascii_value in range (ord('a'), ord('z') +1):
-    print(chr(ascii_value), end='')
-# alphabet += char + " "
+    char = chr(ascii_value)
+    alphabet += char
+
+output = "{}".format(alphabet)
+print(output)

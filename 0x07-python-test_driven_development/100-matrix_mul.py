@@ -76,4 +76,4 @@ def matrix_mul(m_a, m_b):
                 val = map(lambda x: x[1] * m_b[x[0]][i], cell_args)
                 row_res.append(sum(list(val)))
             res.append(row_res)
-        return 
+        return res
